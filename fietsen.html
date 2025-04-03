@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<title>fietsen</title>
+<head>
+    <script src="fietser.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data/images/logo20x20.png">
+    
+</head>
+<body>
+  <div class="box-area">
+        <header class="home-header">
+            <div class="wrapper">
+                <div class="winkelnaam">
+                <h1> <a href="index.html"> Fluitende Fietser </a></h1>
+                </div>
+                <input id="searchbar" type="text" placeholder="zoeken...">
+                <img id="zoek-img" src="data/images/zoek.png" >
+                <img id="logo" src="data/images/logo-zonderbg.png">
+            </div>
+        </header>
+
+<menu class="menu">
+<a href="contact.html">Contact</a>
+<a href="fietsen.html">Fietsen en verhuur</a>
+<a href="overons.html">Over ons</a>
+</menu>
+
+<div class="page-content-fietsen">
+    <div class="fietsen" id="fiets1" onclick="fiets1Expand()">
+        <img src="data/images/fietsen/Pelikaan_Carry_On_Lady.jpg">
+        <p>Pelikaan Carry On Lady</p>
+    </div>
+        <div class="fietsen" id="fiets2" onclick="fiets2Expand()">
+            <img src="data/images/fietsen/Stella_Allegra_voorwielmotor.jpg">
+            <p>Stella Allegra voorwielmotor</p>
+        </div>
+        <div class="fietsen" id="fiets3" onclick="fiets3Expand()">
+            <img src="data/images/fietsen/Gazelle_Orange_C7.jpg">
+            <p>Gazelle Orange C7</p>
+    </div>
+    <div class="fietsen" id="fiets4" onclick="fiets4Expand()">
+        <img src="data/images/fietsen/Gazelle_CityGo_C7.jpg">
+        <p>Gazelle CityGo C7</p>
+    </div>
+
+
+    <a href="winkelwagen.html" class="winkelwagen"><img src="data/images/winkelwagen.png" class="winkelwagen"></a>
+
+
+
+    <div id="fiets1-expand" class="fietsen-expand">
+        <img src="data/images/fietsen/Pelikaan_Carry_On_Lady.jpg">
+
+        <div id="details">
+        <p id="fietsnaam">Pelikaan Carry On Lady</p>
+        <p>Type: Elektrisch</p>
+        <p>Geschikt voor zakelijk en prive</p>
+        <p>Dames</p>
+        <p>Transport</p>
+        <p>Merk: Pelikaan</p>
+        <p>Nieuw</p>
+        <p>Kleur: zwart</p>
+        <p>&#8364;769,00</p>
+        <p>28 inch, 53 cm 3V V-Brakes</p>
+
+        
+    </div>
+        
+        <button id="winkelwagen-button" onclick="addToCart('Pelikaan Carry On Lady', '769,00', 'data/images/fietsen/Pelikaan_Carry_On_Lady.jpg')">In winkelwagen</button>
+        <button id="terug" onclick="Return()">Terug</button>
+
+        
+
+    </div>
+
+    <div id="fiets2-expand" class="fietsen-expand">
+        <img src="data/images/fietsen/Stella_Allegra_voorwielmotor.jpg">
+
+        <div id="details">
+        <p id="fietsnaam">Stella Allegra voorwielmotor</p>
+        <p>Type: Elektrisch</p>
+        <p>Geschikt voor zakelijk en prive</p>
+        <p>Dames</p>
+        <p>Stads</p>
+        <p>Merk: Stella</p>
+        <p>Nieuw</p>
+        <p>Kleur: zwart</p>
+        <p>&#8364;999,00</p>
+        <p>Frameraat S (lichaamslengte 1,62m = 1,73m)</p>        
+    </div>
+        
+        <button id="winkelwagen-button" onclick="addToCart('Stella Allegra voorwielmotor', '999,00', 'data/images/fietsen/Stella_Allegra_voorwielmotor.jpg')">In winkelwagen</button>
+        <button id="terug" onclick="Return()">Terug</button>
+
+        
+
+    </div>
+
+    <div id="fiets3-expand" class="fietsen-expand">
+        <img src="data/images/fietsen/Gazelle_Orange_C7.jpg">
+
+        <div id="details">
+        <p id="fietsnaam">Gazelle Orange C7+ HMB 2020</p>
+        <p>Type: Elektrisch</p>
+        <p>Geschikt voor zakelijk en prive</p>
+        <p>Heren</p>
+        <p>Stads</p>
+        <p>Merk: Gazelle</p>
+        <p>Nieuw</p>
+        <p>Kleur: blauw</p>
+        <p>&#8364;2199,00</p>
+        <p>Frameraat 53cm (1.66cm = 1.77cm)</p>        
+    </div>
+        
+        <button id="winkelwagen-button" onclick="addToCart('Gazelle Orange C7', '2199,00', 'data/images/fietsen/Gazelle_Orange_C7.jpg')">In winkelwagen</button>
+        <button id="terug" onclick="Return()">Terug</button>
+
+        
+
+    </div>
+
+    <div id="fiets4-expand" class="fietsen-expand">
+        <img src="data/images/fietsen/Gazelle_CityGo_C7.jpg">
+
+        <div id="details">
+        <p id="fietsnaam">Gazelle Orange C7+ HMB 2020</p>
+        <p>Type: Niet Elektrisch</p>
+        <p>Geschikt voor zakelijk en prive</p>
+        <p>Heren</p>
+        <p>Stads</p>
+        <p>Merk: Gazelle</p>
+        <p>Nieuw</p>
+        <p>Kleur: meerdere</p>
+        <p>&#8364;679,00</p>
+        <p>Wielmaat 28 inches</p>        
+    </div>
+        
+        <button id="winkelwagen-button" onclick="addToCart('Gazelle CityGo C7', '679,00', 'data/images/fietsen/Gazelle_CityGo_C7.jpg')">In winkelwagen</button>
+        <button id="terug" onclick="Return()">Terug</button>
+
+        
+
+    </div>
+
+
+
+    <a id="huurpagina-link" href="fietsverhuur.html">Fietsen huren?
+    </a>
+
+
+
+</div>  
+
+<footer class="home-footer">
+    <div class="wrapper">
+         <div class="footer-content">
+           <a href="https://www.facebook.com/fietsmagazine"><img id="fblogo" src="data/images/facebook.png"></a>
+            <p id="kvk">KVK:10909827</p>
+            <a id="algemene-voorwaarden" href="data/images/Algemene-voorwaarden-BOVAG-tweewielerbedrijven-april-2018.pdf" download="algemene voorwaarden.pdf">algemene voorwaarden </a>
+            <a id="overons-link" href="overons.html">over ons en contact</a>
+            <p id="copyright">&copy; 2025 Fluitende Fietser</p>
+         </div>
+    </div>
+    <div id="animation-container">
+       <div id="animation"><img id="fietser" src="data/images/fietser-nb.png" onload="myMove()"></img></div>
+    </div>
+</footer>
+</body>
+</html>

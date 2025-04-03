@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<title>fietsverhuur</title>
+<head>
+    <script src="fietser.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <link href="huurfietsen.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data/images/logo20x20.png">
+</head>
+<body>
+  <div class="box-area">
+        <header class="home-header">
+            <div class="wrapper">
+                <div class="winkelnaam">
+                <h1> <a href="index.html"> Fluitende Fietser </a></h1>
+                </div>
+                <input id="searchbar" type="text" placeholder="zoeken...">
+                <img id="zoek-img" src="data/images/zoek.png" >
+                <img id="logo" src="data/images/logo-zonderbg.png">
+            </div>
+        </header>
+
+<menu class="menu">
+<a href="contact.html">Contact</a>
+<a href="fietsen.html">Fietsen en verhuur</a>
+<a href="overons.html">Over ons</a>
+</menu>
+
+<div class="huur-content">
+
+    <table class="fietsen-table">
+        <tr>
+            <th>Fietsen</th>
+            <th colspan="2">Huurprijs per dag</th>
+        </tr>
+        <tr>
+            <td>Aanhangfiets:</td>
+            <td>&#8364;20,00</td>
+            <td><input type="checkbox" id="Aanhangfiets-checkbox" class="checkbox"></td>        
+        </tr>
+        <tr>
+            <td>Bakfiets:</td>
+            <td>&#8364;35,00</td>
+            <td><input type="checkbox" id="Bakfiets-checkbox" class="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Driewielfiets</td>
+            <td>&#8364;30,00</td>
+            <td><input type="checkbox" id="Driewielfiets-checkbox" class="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Elektrische fiets</td>
+            <td>&#8364;30,00</td>
+            <td><input type="checkbox" id="Elektrischefiets-checkbox" class="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Kinderfiets</td>
+            <td>&#8364;15,00</td>
+            <td><input type="checkbox" id="Kinderfiets-checkbox" class="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Ligfiets</td>
+            <td>&#8364;45,00</td>
+            <td><input type="checkbox" id="Ligfiets-checkbox" class="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Omafiets</td>
+            <td>&#8364;12,00</td>
+            <td><input type="checkbox" id="Omafiets-checkbox" class="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Racefiets</td>
+            <td>&#8364;15,00</td>
+            <td><input type="checkbox" id="Racefiets-checkbox" class="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Speed pedelec</td>
+            <td>&#8364;15,00</td>
+            <td><input type="checkbox" id="Speedpedelec-checkbox" class="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Stadsfiets</td>
+            <td>&#8364;12,50</td>
+            <td><input type="checkbox" id="Stadsfiets-checkbox" class="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Vouwfiets</td>
+            <td>&#8364;10,00</td>
+            <td><input type="checkbox" id="Vouwfiets-checkbox" class="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Zitfiets</td>
+            <td>&#8364;15,00</td>
+            <td><input type="checkbox" id="Zitfiets-checkbox" class="checkbox"></td>
+
+        </tr>
+    </table>
+
+    <button id="huur-button" onclick="Rent()">Huur de fiets(en)</button>
+
+    <input type="number" id="huren-dagen">
+    <p id="hoeveel-dagen">Voor hoeveel dagen wil u huren?</p>
+
+    <form id="huur-form" onsubmit="return showMessage()">
+        <label for="Voornaam_Achternaam">Volledige naam:</label>
+        <input type="text" name="Voornaam_Achternaam" id="Voornaam_Achternaam">
+        
+    
+        <label for="email">email-adres:</label>
+        <input type="email" name="email" id="email">
+        
+    
+        <label for="Adres">Adres:</label>
+        <input type="text" name="Adres" id="Adres">
+    
+        <label for="Stad">Stad:</label>
+        <input type="text" name="Stad" id="Stad">
+    
+        <label for="Postcode">Postcode</label>
+        <input type="text" name="Postcode" id="Postcode" >
+    
+        <label id="huren-label"></label>
+        <button>Gegevens verzenden</button>
+
+        <label id="huren-voor"></label>
+    
+    </form>
+
+    
+
+</div>
+
+<div id="Aanhangfiets">
+    <img src="data/images/Aanhangfiets.avif">
+</div>
+
+<div id="Bakfiets">
+    <img src="data/images/Bakfiets.png">
+</div>
+
+<div id="Driewielfiets">
+    <img src="data/images/Driewielfiets.png">
+</div>
+
+<div id="Elektrischefiets">
+    <img src="data/images/Elektrischefiets.png">
+</div>
+
+<div id="Kinderfiets">
+    <img src="data/images/Kinderfiets.png">
+</div>
+
+<div id="Ligfiets">
+    <img src="data/images/Ligfiets.png">
+</div>
+
+<div id="Omafiets">
+    <img src="data/images/Omafiets.png">
+</div>
+<div id="Racefiets">
+    <img src="data/images/Racefiets.png">
+</div>
+<div id="Speedpedelec">
+    <img src="data/images/Speedpedelec.png">
+</div>
+<div id="Stadsfiets">
+    <img src="data/images/Stadsfiets.png">
+</div>
+<div id="Vouwfiets">
+    <img src="data/images/Vouwfiets.webp">
+</div>
+<div id="Zitfiets">
+    <img src="data/images/Zitfiets.png">
+</div>
+
+<footer class="home-footer">
+    <div class="wrapper">
+         <div class="footer-content">
+           <a href="https://www.facebook.com/fietsmagazine"><img id="fblogo" src="data/images/facebook.png"></a>
+            <p id="kvk">KVK:10909827</p>
+            <a id="algemene-voorwaarden" href="data/images/Algemene-voorwaarden-BOVAG-tweewielerbedrijven-april-2018.pdf" download="algemene voorwaarden.pdf">algemene voorwaarden </a>
+            <a id="overons-link" href="overons.html">over ons en contact</a>
+            <p id="copyright">&copy; 2025 Fluitende Fietser</p>
+         </div>
+    </div>
+    <div id="animation-container">
+       <div id="animation"><img id="fietser" src="data/images/fietser-nb.png" onload="myMove()"></img></div>
+    </div>
+</footer>
+
+
+
+</body>
+</html>

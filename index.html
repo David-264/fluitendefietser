@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<title>index</title>
+<head>
+    <script defer src="fietser.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data/images/logo20x20.png">
+    
+</head>
+<body>
+  <div class="box-area">
+        <header class="home-header">
+            <div class="wrapper">
+                <div class="winkelnaam">
+                <h1> <a href="index.html"> Fluitende Fietser </a></h1>
+                </div>
+                <input id="searchbar" type="text" placeholder="zoeken...">
+                <img id="zoek-img" src="data/images/zoek.png" >
+                <img id="logo" src="data/images/logo-zonderbg.png">
+            </div>
+        </header>
+
+ <menu class="menu">
+ <a href="contact.html">Contact</a>
+ <a href="fietsen.html">Fietsen en verhuur</a>
+ <a href="overons.html">Over ons</a>
+ </menu>
+
+ <div class="page-content">
+
+
+    <div class="slideshow-container" onload="autoSlides()">
+        <a class="prev" onclick="PlusSlides(-1)">&#10094;</a>
+
+        <div class="mySlides fade">
+            <img src="data/images/winkel1.jpg">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="data/images/winkel2.jpg">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="data/images/winkel3.jpg">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="data/images/sfeer1.jpg">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="data/images/sfeer2.jpg">
+        </div>
+
+        <a class="next" onclick="PlusSlides(1)">&#10095;</a>
+    </div>
+
+    <div class="store-status">
+
+  <div id="open-melding">
+    <p>Wij zijn: <span style="color: green;">Open</span></p>
+
+  </div>
+
+  <div id="closed-melding">
+    <p>Wij zin: <span style="color: red;">Gesloten</span></p>
+
+  </div>
+</div>
+
+<div class="welkomtekst">
+    <h1>Welkom bij De Fluitende Fietser!</h1>
+
+    <p>Bij ons vind je de perfecte fiets voor elke rit. Of je nu een nieuwe fiets zoekt, een fiets wilt huren of gewoon meer wilt weten over onze winkel, je bent hier aan het juiste adres. Neem een kijkje in ons assortiment, ontdek onze services en kom gerust langs. Wij staan voor je klaar met persoonlijk advies en een glimlach!
+
+        Veel fietsplezier!</p>
+</div>
+
+</div>
+
+</div> 
+
+
+<footer class="home-footer">
+    <div class="wrapper">
+         <div class="footer-content">
+           <a href="https://www.facebook.com/fietsmagazine"><img id="fblogo" src="data/images/facebook.png"></a>
+            <p id="kvk">KVK:10909827</p>
+            <a id="algemene-voorwaarden" href="data/images/Algemene-voorwaarden-BOVAG-tweewielerbedrijven-april-2018.pdf" download="algemene voorwaarden.pdf">algemene voorwaarden </a>
+            <a id="overons-link" href="overons.html">over ons en contact</a>
+            <p id="copyright">&copy; 2025 Fluitende Fietser</p>
+         </div>
+    </div>
+    <div id="animation-container">
+       <div id="animation"><img id="fietser" src="data/images/fietser-nb.png" onload="myMove()"></img></div>
+    </div>
+</footer>
+</body>
+</html>

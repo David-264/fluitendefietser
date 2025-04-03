@@ -1,0 +1,306 @@
+#Aanhangfiets{
+    display: none;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    position:absolute;
+    width: 100%;
+    top: 17%;
+    bottom: 10%;
+    left: 0;
+}
+#Aanhangfiets img{
+    grid-area: 1/1/span3/1;
+    width: auto;
+    height: 500px;
+}
+#Aanhangfiets form{
+    grid-area: 1/3/span2/3;
+    position: relative;
+    top: 10%;
+}
+#Aanhangfiets label{
+    display: block;
+    margin-bottom: 1%;
+  }
+  #Aanhangfiets input{
+    margin-bottom: 8%;
+  }
+
+  #Bakfiets{
+    display: none;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    position:absolute;
+    width: 100%;
+    top: 17%;
+    bottom: 10%;
+    left: 0;
+}
+#Bakfiets img{
+    grid-area: 1/1/span3/1;
+    width: auto;
+    height: 500px;
+}
+#Bakfiets form{
+    grid-area: 1/3/span2/3;
+    position: relative;
+    top: 10%;
+}
+#Bakfiets label{
+    display: block;
+    margin-bottom: 1%;
+  }
+  #Bakfiets input{
+    margin-bottom: 8%;
+  }
+  #Driewielfiets{
+    display: none;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    position:absolute;
+    width: 100%;
+    top: 17%;
+    bottom: 10%;
+    left: 0;
+}
+#Driewielfiets img{
+    grid-area: 1/1/span3/1;
+    width: auto;
+    height: 500px;
+}
+#Driewielfiets form{
+    grid-area: 1/3/span2/3;
+    position: relative;
+    top: 10%;
+}
+#Driewielfiets label{
+    display: block;
+    margin-bottom: 1%;
+  }
+  #Driewielfiets input{
+    margin-bottom: 8%;
+  }
+
+  #Driewielfiets{
+    display: none;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    position:absolute;
+    width: 100%;
+    top: 17%;
+    bottom: 10%;
+    left: 0;
+}
+#Driewielfiets img{
+    grid-area: 1/1/span3/1;
+    width: auto;
+    height: 500px;
+}
+#Driewielfiets form{
+    grid-area: 1/3/span2/3;
+    position: relative;
+    top: 10%;
+}
+#Driewielfiets label{
+    display: block;
+    margin-bottom: 1%;
+  }
+  #Driewielfiets input{
+    margin-bottom: 8%;
+}
+  #Driewielfiets{
+    display: none;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    position:absolute;
+    width: 100%;
+    top: 17%;
+    bottom: 10%;
+    left: 0;
+}
+#Driewielfiets img{
+    grid-area: 1/1/span3/1;
+    width: auto;
+    height: 500px;
+}
+#Driewielfiets form{
+    grid-area: 1/3/span2/3;
+    position: relative;
+    top: 10%;
+}
+#Driewielfiets label{
+    display: block;
+    margin-bottom: 1%;
+  }
+  #Driewielfiets input{
+    margin-bottom: 8%;
+  }
+
+  #Elektrischefiets{
+    display: none;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    position:absolute;
+    width: 100%;
+    top: 17%;
+    bottom: 10%;
+    left: 0;
+}
+#Elektrischefiets img{
+    grid-area: 1/1/span3/1;
+    width: auto;
+    height: 500px;
+}
+#Elektrischefiets label{
+    display: block;
+    margin-bottom: 1%;
+  }
+  #Elektrischefiets input{
+    margin-bottom: 8%;
+  }
+
+  #Kinderfiets{
+    display: none;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    position:absolute;
+    width: 100%;
+    top: 17%;
+    bottom: 10%;
+    left: 0;
+}
+#Kinderfiets img{
+    grid-area: 1/1/span3/1;
+    width: auto;
+    height: 500px;
+}
+#Kinderfiets label{
+    display: block;
+    margin-bottom: 1%;
+  }
+  #Kinderfiets input{
+    margin-bottom: 8%;
+  }
+
+#Ligfiets{
+    display: none;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    position:absolute;
+    width: 100%;
+    top: 17%;
+    bottom: 10%;
+    left: 0;
+}
+#Ligfiets img{
+    grid-area: 1/1/span3/1;
+    width: auto;
+    height: 500px;
+}
+  #Omafiets{
+    display: none;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    position:absolute;
+    width: 100%;
+    top: 17%;
+    bottom: 10%;
+    left: 0;
+}
+#Omafiets img{
+    grid-area: 1/1/span3/1;
+    width: auto;
+    height: 500px;
+}
+#Racefiets{
+  display: none;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(5,1fr);
+  position:absolute;
+  width: 100%;
+  top: 17%;
+  bottom: 10%;
+  left: 0;
+}
+#Racefiets img{
+  grid-area: 1/1/span3/1;
+  width: auto;
+  height: 500px;
+}
+#Speedpedelec{
+  display: none;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(5,1fr);
+  position:absolute;
+  width: 100%;
+  top: 17%;
+  bottom: 10%;
+  left: 0;
+}
+#Speedpedelec img{
+  grid-area: 1/1/span3/1;
+  width: auto;
+  height: 500px;
+}
+#Stadsfiets{
+  display: none;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(5,1fr);
+  position:absolute;
+  width: 100%;
+  top: 17%;
+  bottom: 10%;
+  left: 0;
+}
+#Stadsfiets img{
+  grid-area: 1/1/span3/1;
+  width: auto;
+  height: 500px;
+}
+#Vouwfiets{
+  display: none;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(5,1fr);
+  position:absolute;
+  width: 100%;
+  top: 17%;
+  bottom: 10%;
+  left: 0;
+}
+#Vouwfiets img{
+  grid-area: 1/1/span3/1;
+  width: auto;
+  height: 500px;
+}
+#Zitfiets{
+  display: none;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(5,1fr);
+  position:absolute;
+  width: 100%;
+  top: 17%;
+  bottom: 10%;
+  left: 0;
+}
+#Zitfiets img{
+  grid-area: 1/1/span3/1;
+  width: auto;
+  height: 500px;
+}
+#huur-form{
+  display: none;
+  position: relative;
+  right: 50%;
+  grid-area: 2/5/span2/5;
+  z-index: 10;
+ 
+}
+#huur-form label {
+  display: block;
+  margin-bottom: 1%;
+}
+#huur-form input{
+  margin-bottom: 8%;
+}
+
+
